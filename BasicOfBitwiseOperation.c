@@ -42,7 +42,7 @@ void setBit(uint32_t number, size_t position){
   print32Bit(number);
   //Why maskbit? because we don't want to affect the other bit
   uint32_t maskBit = (1 << position); 
-  number |= maskBit; //Note: OR '|' is used to meger two binary numbers
+  number |= maskBit; //Note: OR '|' is used to merge two binary numbers
   print32Bit(number);
 }
 
@@ -81,8 +81,9 @@ void count1sInBitRepresentation(uint32_t num){
        first: num = 8  //0000 1000
        second: num - 1 = 7 //0000 0111 (num - 1 flips the rightmost 1 bit to 0 and turns all bits after it to 1)
        third: '&' operation //if both bits are 1 then result is 1, else 0.
-       but in this example it doesn't have so count++
-       num becomes 0 and loops break
+       but in this example it doesn't have so num becomes 0
+       in next step: count++
+       num is 0 and loops break
      */
     count++;
   }
