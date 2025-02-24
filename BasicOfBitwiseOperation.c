@@ -5,7 +5,7 @@
   Read these before delve into code:
    1. Modern computers uses two's complement
       where MSB(Most significant bit) is sign bit where 0 means '+' and 1 means '-'
-   2. Make yourself with binary reperesentation and it's types.
+   2. Make yourself familiar with binary reperesentation and it's types.
    3. "<<" this means left-shift:
       Left-shift used to fast multiplication by 2 pow n.
       For instance: num = 0000 0101; //in decimal 5
