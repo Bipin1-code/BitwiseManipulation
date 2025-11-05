@@ -42,6 +42,6 @@ gcc -std=c11 -Wall -Wextra BasicOfBitwiseOperation.c -o bitwise_basic
 gcc -std=c11 -Wall -Wextra BitwiseQuestionNSolution.c -o bitwise_qns
 ./bitwise_qns
 
-----
+---
 ## Goal:
  This repository is still on progess mode, helping all new programmer to get familiar with bit manipulation and their implementation.
